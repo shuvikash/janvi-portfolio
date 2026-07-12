@@ -12,7 +12,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: treosh/lighthouse-ci-action@v12
+      - name: Wait for GitHub Pages deployment
+        run: sleep 30
+
+      - name: Run Lighthouse
+        uses: treosh/lighthouse-ci-action@v12
         with:
+          urls: |
+            https://shuvikash.github.io/janvi-portfolio/
           uploadArtifacts: true
           temporaryPublicStorage: true
