@@ -15,6 +15,10 @@ It borrows the visual language and polish of a modern fintech operating system â
 
 No React, Vue, Angular, Bootstrap or jQuery.
 
+## Live Demo
+
+https://shuvikash.github.io/janvi-portfolio/
+
 ## Project structure
 
 ```
