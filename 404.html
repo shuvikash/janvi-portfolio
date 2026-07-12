@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>404 | Janvi Kumari</title>
+
+    <meta name="robots" content="noindex">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <link rel="icon" href="favicon.ico">
+
+    <style>
+        body {
+            background: #020617;
+            overflow: hidden;
+        }
+
+        .grid-bg {
+            background-image:
+                linear-gradient(rgba(255, 255, 255, .04) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, .04) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+
+        .glow {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: #10b981;
+            filter: blur(160px);
+            opacity: .12;
+            border-radius: 100%;
+            animation: float 8s ease-in-out infinite;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translate(0, 0);
+            }
+
+            50% {
+                transform: translate(40px, -30px);
+            }
+        }
+
+        .cursor {
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="text-white flex items-center justify-center min-h-screen grid-bg">
+
+    <div class="glow top-0 left-0"></div>
+
+    <div class="relative z-10 max-w-2xl px-8 text-center">
+
+        <div
+            class="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400 mb-8">
+
+            SYSTEM STATUS
+
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+
+        </div>
+
+        <h1 class="text-8xl md:text-9xl font-black tracking-tight mb-6">
+
+            404
+
+        </h1>
+
+        <h2 class="text-3xl md:text-4xl font-bold mb-6">
+
+            Requested Route Not Found
+
+        </h2>
+
+        <p class="text-slate-400 leading-8 mb-10">
+
+            The page you're trying to access does not exist or has been moved.
+            The Digital Banking Portfolio is still operational.
+
+        </p>
+
+        <div class="bg-slate-900 border border-slate-700 rounded-xl text-left overflow-hidden shadow-2xl">
+
+            <div class="bg-slate-800 px-5 py-3 border-b border-slate-700 flex gap-2">
+
+                <span class="w-3 h-3 rounded-full bg-red-500"></span>
+                <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
+                <span class="w-3 h-3 rounded-full bg-green-500"></span>
+
+            </div>
+
+            <div class="font-mono text-sm p-6 leading-8 text-slate-300">
+
+                <pre class="whitespace-pre-wrap">> GET /unknown-route
+
+STATUS: 404
+
+ERROR: Route not found
+
+TIP: Return to the homepage.
+
+SUCCESS: Portfolio system operational.<span class="cursor">█</span></pre>
+
+            </div>
+
+        </div>
+
+        <div class="mt-10 flex justify-center gap-4 flex-wrap">
+
+            <a href="/janvi-portfolio/"
+                class="px-6 py-3 rounded-lg bg-emerald-500 hover:bg-emerald-400 transition font-semibold">
+
+                Return Home
+
+            </a>
+
+            <button onclick="history.back()"
+                class="px-6 py-3 rounded-lg border border-slate-600 hover:border-emerald-400 transition">
+
+                Go Back
+
+            </button>
+
+        </div>
+
+        <p class="mt-12 text-slate-500 text-sm">
+
+            © 2026 Janvi Kumari • Digital Banking Portfolio
+
+        </p>
+
+    </div>
+
+</body>
+
+</html>
