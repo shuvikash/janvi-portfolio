@@ -6,6 +6,10 @@ It borrows the visual language and polish of a modern fintech operating system â
 
 > **"Digital Banking OS"** is a creative branding/theme only. It is **not** an official job title. All logs, dashboards, repositories, workflows and metrics on the site are entirely **fictional and illustrative**.
 
+## Live Demo
+
+https://shuvikash.github.io/janvi-portfolio/
+
 ## Tech stack
 
 - **HTML5** â€” semantic, accessible markup
@@ -14,10 +18,6 @@ It borrows the visual language and polish of a modern fintech operating system â
 - Custom `assets/css/styles.css` â€” the full design system
 
 No React, Vue, Angular, Bootstrap or jQuery.
-
-## Live Demo
-
-https://shuvikash.github.io/janvi-portfolio/
 
 ## Project structure
 
