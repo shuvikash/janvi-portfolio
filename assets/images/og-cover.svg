@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1120"/>
+      <stop offset="1" stop-color="#070b14"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="0%" r="80%">
+      <stop offset="0" stop-color="#10b981" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#10b981" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+  <g stroke="#94a3b8" stroke-opacity="0.08">
+    <path d="M0 100 H1200 M0 200 H1200 M0 300 H1200 M0 400 H1200 M0 500 H1200"/>
+    <path d="M100 0 V630 M300 0 V630 M500 0 V630 M700 0 V630 M900 0 V630 M1100 0 V630"/>
+  </g>
+  <text x="80" y="250" font-family="'JetBrains Mono', monospace" font-size="26" fill="#22d3ee">// digital-banking-os</text>
+  <text x="76" y="360" font-family="'Space Grotesk', sans-serif" font-size="88" font-weight="700" fill="url(#txt)">Janvi Kumari</text>
+  <text x="80" y="430" font-family="'Inter', sans-serif" font-size="34" fill="#94a3b8">Probationary Officer · Bank of Maharashtra</text>
+  <text x="80" y="480" font-family="'Inter', sans-serif" font-size="26" fill="#64748b">Digital Banking &amp; Branch Operations</text>
+  <rect x="80" y="520" width="18" height="18" rx="5" fill="#10b981"/>
+  <text x="112" y="535" font-family="'JetBrains Mono', monospace" font-size="20" fill="#34d399">system: operational</text>
+</svg>
