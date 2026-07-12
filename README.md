@@ -1,5 +1,7 @@
 # Janvi Kumari — Digital Banking OS
 
+![Deploy](https://github.com/shuvikash/janvi-portfolio/actions/workflows/lighthouse.yml/badge.svg)
+
 A premium personal portfolio for **Janvi Kumari**, Probationary Officer at **Bank of Maharashtra**, working in **Digital Banking & Branch Operations**.
 
 It borrows the visual language and polish of a modern fintech operating system — glassmorphism, mesh gradients, an animated grid, ambient lighting and engineering-inspired storytelling — while clearly remaining a personal portfolio.
